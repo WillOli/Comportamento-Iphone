@@ -8,12 +8,18 @@ public class Main {
         NavegadorInternet navegadorInternet = new NavegadorInternet();
         ReprodutorMusical reprodutorMusical = new ReprodutorMusical();
 
-//        aparelhoTelefonico.ligar();
-//        aparelhoTelefonico.atender();
-//        aparelhoTelefonico.iniciarCorreioDeVoz();
+        aparelhoTelefonico.ligar();
+        aparelhoTelefonico.atender();
+        aparelhoTelefonico.iniciarCorreioDeVoz();
 
 
         navegadorInternet.exibirPagina();
+        navegadorInternet.adicionarNovaAba();
+        navegadorInternet.atualizarPagina();
+
+        reprodutorMusical.selecionarMusica("Tocando");
+        reprodutorMusical.tocar();
+        reprodutorMusical.pausar();
 
 
 
